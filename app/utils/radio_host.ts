@@ -1,1 +1,1 @@
-export const asura = "https://cast6.my-control-panel.com/proxy/radioch2/stream"; //radiochi2
+export const asura = "https://cast6.my-control-panel.com/proxy/radioch5/stream"; 
