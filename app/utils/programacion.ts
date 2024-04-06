@@ -6,36 +6,65 @@ export const programas: ProgramType[] = [
   {
     id: 11,
     hora: "9:00pm a 10:00am",
-    nombre: "Mi pueblo.",
-    locutor: "Julián villa",
+    nombre: "Talentos laguneros",
+    locutor: "???",
     image: "bg-radio1",
     bio: `
 
+    ¡Hola, comunidad!
     
-    ¡Descubre la esencia de "Mi Pueblo", tu programa de radio que celebra nuestras raíces y tradiciones! Cada transmisión es un viaje sonoro al corazón de nuestra comunidad, donde las historias, la música y las voces de nuestro pueblo cobran vida. En "Mi Pueblo", no solo escucharás las últimas noticias y acontecimientos locales, sino que te sumergirás en un espacio donde cada historia se siente como en casa, desde leyendas que han tejido generaciones hasta los logros de nuestros contemporáneos que están marcando la diferencia.
+    Estamos emocionados de presentarles "Talentos Laguneros", el programa donde la creatividad y el talento de nuestra región se encuentran para brillar. Cada semana, exploramos las historias inspiradoras, los logros impresionantes y las innovaciones revolucionarias de los talentos más destacados de la Laguna.
     
-    Con entrevistas auténticas, música que mueve el alma y debates que reflejan nuestras vivencias, "Mi Pueblo" es más que un programa de radio; es un punto de encuentro para todos los que valoramos nuestra identidad y queremos contribuir a un futuro lleno de esperanza y unidad. Ya sea que te encuentres lejos de casa o justo en el corazón de nuestro pueblo, te invitamos a sintonizar y ser parte de esta gran familia.
+    ¿Te interesa la música, el arte, la tecnología, el emprendimiento, o simplemente disfrutas descubrir las joyas ocultas de nuestra cultura? Entonces, "Talentos Laguneros" es para ti. Nuestro objetivo es construir una plataforma donde los talentos locales puedan compartir su pasión, inspirar a otros, y juntos, celebrar la riqueza cultural y creativa que nos rodea.
     
-    Escucha "Mi Pueblo" y déjate envolver por la magia de nuestra cultura, la fuerza de nuestra gente y el amor por nuestras tradiciones. Porque en "Mi Pueblo", cada día es una oportunidad para celebrar quiénes somos y de dónde venimos. ¡Únete a nosotros y haz que tu voz sea escuchada en esta gran fiesta de la comunidad!
-    `,
+    Únete a nosotros en este viaje de descubrimiento y apoyo a nuestros talentos. Sintoniza "Talentos Laguneros" y sé parte de una comunidad que celebra y eleva lo mejor de nosotros. No te pierdas la oportunidad de conocer a fondo a aquellos que están marcando la diferencia en nuestra región.
+    
+    Para más detalles sobre horarios y cómo sintonizarnos, síguenos en nuestras redes sociales y mantente al tanto de todo lo que "Talentos Laguneros" tiene para ofrecerte.
+    
+    ¡Te esperamos!
+   `,
   },
   {
     id: 21,
     hora: "6:00pm a 7:00pm",
-    nombre: "El escandalo.",
-    locutor: "Julián villa",
+    nombre: "Cumbias pa la banda",
+    locutor: "Mario de larriva el pelón del mickropone ",
     image: "bg-radio2",
     bio: `
+    ¡Atención, amantes de la cumbia y de la buena música!
 
+Es hora de sacudir el polvo a esos zapatos de baile porque "Cumbias pa la Banda" ha llegado para ponerle sabor a tus días. Con una selección musical que te hará mover el esqueleto desde el primer acorde, nuestro programa es el espacio perfecto para todos aquellos que llevan la cumbia en el corazón y el ritmo en los pies.
 
-¡Prepárate para sumergirte en el vibrante corazón de "El Escándalo", tu fuente número uno de noticias, debates y revelaciones que no encontrarás en ningún otro lugar! En cada episodio, nos adentramos en las profundidades de los temas más candentes, sacando a la luz aquellos secretos que algunos preferirían mantener ocultos. "El Escándalo" es más que un simple programa de radio; es una plataforma audaz y sin miedo donde las verdades se exponen y los tabúes se rompen.
+Cada episodio de "Cumbias pa la Banda" es un viaje musical donde exploramos desde los clásicos inolvidables hasta las nuevas tendencias que están marcando el paso en las pistas de baile. Pero eso no es todo; también compartimos anécdotas, historias detrás de las canciones, entrevistas con tus artistas favoritos, y mucho más.
 
-Nuestros micrófonos están siempre abiertos para las voces que desean ser escuchadas, desde expertos hasta el hombre común en la calle, todos tienen un espacio en "El Escándalo". Con una mezcla de periodismo incisivo, análisis profundo y una pizca de humor, cada emisión promete no solo informarte sino también entretenerte y, quizás, desafiar tu percepción del mundo.
+¿Eres un fiel seguidor de la cumbia o simplemente buscas algo que aleje la monotonía y llene tus días de alegría? Entonces, "Cumbias pa la Banda" es tu lugar. Súmate a nuestra comunidad y deja que la cumbia fluya por tus venas.
 
-Sintoniza "El Escándalo" y sé parte de una audiencia que valora la transparencia, la discusión abierta y el poder del conocimiento. No importa si buscas entender mejor los últimos sucesos políticos, descubrir las historias ocultas detrás de las celebridades o simplemente disfrutar de una buena historia, "El Escándalo" tiene algo para ti.
+No dejes pasar la oportunidad de ser parte de esta gran fiesta radial. Sintoniza "Cumbias pa la Banda" y déjate llevar por el ritmo que une corazones y cruza fronteras. Para detalles sobre horarios y cómo escucharnos, síguenos en nuestras redes sociales.
 
-Únete a nosotros y vive la experiencia de "El Escándalo", donde cada emisión es una aventura y cada historia te deja queriendo más. Porque en el mundo de hoy, estar informado es un acto revolucionario. ¡No te pierdas ni un solo episodio!
-    `,
+¡Prepárate para vivir la cumbia como nunca antes con "Cumbias pa la Banda"! Te prometemos que no querrás detenerte.
+`,
+  },
+  {
+    id: 31,
+    hora: "6:00pm a 7:00pm",
+    nombre: "Rapeando con el flaco",
+    locutor: "El flaco",
+    image: "bg-radio3",
+    bio: `
+    ¡Qué onda, comunidad hip-hop!
+
+Es momento de elevar el volumen porque "Rapeando con el Flaco" llega directo a tus oídos, trayendo las rimas más afiladas y los beats que marcan el pulso de la calle. Este es tu espacio para sumergirte en el corazón del hip-hop, explorar sus raíces, descubrir nuevos talentos y revivir los clásicos que definieron una era.
+
+Cada episodio, el Flaco te acompaña en un viaje por el mundo del rap, desde las batallas de freestyle más intensas hasta las historias detrás de los grandes hits. Aquí, la cultura hip-hop vive y respira, discutiendo todo desde la técnica y el estilo hasta el impacto social y cultural de este movimiento que no conoce fronteras.
+
+"Rapeando con el Flaco" no es solo un programa; es una comunidad para todos aquellos que viven sus días al ritmo del hip-hop, para quienes escriben barras en sus libretas esperando ser escuchados, y para los beatmakers que crean el fondo sonoro de nuestras vidas. Aquí, todos tenemos voz.
+
+Así que, ya sabes, si el hip-hop corre por tus venas y buscas un lugar donde la pasión por el rap se vive en cada palabra, "Rapeando con el Flaco" es tu hogar. Sintonízanos y forma parte de esta cultura que nos une y nos define.
+
+Para más información sobre cómo unirte a nosotros y no perderte ni un solo beat, síguenos en nuestras redes sociales. "Rapeando con el Flaco" es más que un programa, es una familia.
+
+¡Nos vemos en la onda, familia!
+`,
   },
 ];
 

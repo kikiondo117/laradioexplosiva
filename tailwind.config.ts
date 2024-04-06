@@ -16,6 +16,8 @@ export default {
 
         radio1: 'url(/img/programas/radio1.webp)',
         radio2: 'url(/img/programas/radio2.webp)',
+        radio3: 'url(/img/programas/radio3.webp)',
+
        
 
         manuel: 'url(/img/manuel-vera.jpeg)',

@@ -4,6 +4,7 @@ import { redirect, type LoaderFunction } from "@remix-run/node";
 import { useLoaderData } from "react-router";
 import { programas } from "~/utils/programacion";
 import { Post } from "~/components/Post/Post";
+import { info } from "~/utils/info";
 
 export default function Programa() {
   const program: ProgramType = useLoaderData() as ProgramType;
@@ -23,7 +24,7 @@ export default function Programa() {
           <p className=" max-w-lg mx-auto mt-4 font-extralight">
             Todos los días, de <strong>{program.hora}</strong> , tienes una cita
             con <strong>{program.locutor}</strong>.{program.bio} . Puedes
-            escuchar el programa en <strong>Radio Hill's</strong>
+            escuchar el programa en <strong>{info.radio_name}</strong>
           </p>
         </div>
       </main>

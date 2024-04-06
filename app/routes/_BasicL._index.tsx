@@ -33,7 +33,7 @@ export default function Index() {
                 to={`/program/${programa.id}`}
                 key={programa.locutor}
                 className={`bg-gray-special rounded-sm w-96 h-64 md:w-[25em] capitalize 
-                 cursor-pointer bg-center ${programa.image}`}
+                 cursor-pointer bg-center bg-cover ${programa.image}`}
               >
                 <div className="h-full flex flex-col justify-end hover:translate-y-9 transition-all ease-in-out">
                   <p className="text-red-500 bg-white w-fit px-4 py-2 ">

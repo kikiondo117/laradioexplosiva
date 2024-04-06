@@ -11,7 +11,7 @@ export default function ProgramLayout() {
 
       <Outlet />
 
-      <footer className="flex items-center justify-around h-16">
+      <footer className="flex items-center justify-around">
         <p className="bg-black w-full text-sm md:text-base xl:w-1/4 text-white flex justify-end  items-center p-4">
         {info.radio_name}. Todos los derechos reservados.
         </p>
