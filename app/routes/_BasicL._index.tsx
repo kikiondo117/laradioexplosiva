@@ -6,7 +6,6 @@ import * as programming from "~/utils/programacion";
 // * Custom Components
 import { Player } from "~/components/Player/Player";
 import { Section } from "~/components/Section/Section";
-import { Host } from "~/components/Host/Host";
 import { Post } from "~/components/Post/Post";
 import { Link } from "@remix-run/react";
 import {info} from '~/utils/info'
@@ -84,7 +83,7 @@ export default function Index() {
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title:  info.radio_name },
-    { name: "description", content: `${info.radio_name}, nuestra pasión nos impulsa a ser los mejores de nuestra área. ¡Sintoniza y vive la diferencia!` },
+    { title: 'La radio explosiva de la comarca lagunera ' },
+    { name: "description", content: `La radio explosiva de la comarca lagunera, nuestra pasión nos impulsa a ser los mejores de nuestra área. ¡Sintoniza y vive la diferencia!` },
   ];
 };
