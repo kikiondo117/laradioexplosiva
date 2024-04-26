@@ -12,7 +12,7 @@ export default {
       backgroundImage: {
         main: "url('/img/patrones/2.webp')",
         patron: 'url(/img/patrones/fondo1.webp)',
-        patron2: 'url(/img/patrones/fondo2.webp)',
+        patron2: 'url(/img/patrones/fondo2.png)',
 
         radio1: 'url(/img/programas/radio1.webp)',
         radio2: 'url(/img/programas/radio2.webp)',
